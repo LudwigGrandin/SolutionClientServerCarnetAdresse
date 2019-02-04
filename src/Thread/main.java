@@ -8,7 +8,7 @@ public class main {
 		
 		threadsConsole cb= new threadsConsole(0, "CompteCheque");
 		
-		
+		System.out.println("Coucou");
 		Thread t = new Thread(cb);
 		Thread t2 = new Thread(new threadsConsole(10, "LIVA"));
 		t.start();
